@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <title> Formulario de Contacto</title>
+  <meta name="Formulario" content="Intento primer formulario en HTML" />
+  <meta name="autor" content="Jorge Manzano" />
+  <link rel="stylesheet" href="Stilos.css">
+</head>
+
+<body>
+  <header>
+    <h2 class="titulo_form">Formulario de contacto:</h2>
+    <hr>
+    <br>
+    <br>
+    <div id="formulario">
+      <form action="show_data_Form.html">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Ingrese su nombre completo">
+        <br>
+        <label for="apellido">Em@il:</label>
+        <input type="mail" id="lastname" name="lastname" placeholder="Ingrese su mail">
+        <p>Genero:
+          <select id="tipogenero" name="tipogenero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select>
+        </p>
+        <p>Tipo comentario a cursar:
+          <select id="tipocons" name="tipocons">
+            <option value="consulta">Consulta</option>
+            <option value="sugerencias">Sugerencia</option>
+            <option value="otro">Otro</option>
+          </select>
+        </p>
+        <p>Comentarios:
+          <textarea name="message" id="message" rows="2" cols="30"></textarea>
+        </p>
+        <p id="botones_form">
+          <input type="submit" value="Enviar Form.">
+          <input type="reset" value="Limpiar Form.">
+        </p>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+
+</header>
+<footer>
+  <hr>
+  <div>
+    <ul>
+      <li><img src="img/LogoJM.png" width="75" height="72"></li>
+      <li>Derechos reservados Aimo Video/Music...</li>
+      <li><a href="index.html">HOME</a></li>
+    </ul>
+  </div>
+  <hr>
+
+</footer>
+
+</body>
